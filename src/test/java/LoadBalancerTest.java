@@ -26,9 +26,6 @@ public class LoadBalancerTest {
         weightRoundRobbinLoadBalancer = new WieghtRoundRobinLoadBalancer();
     }
 
-
-    /// add server address method and tests.
-
     @Test
     public void getServerAddressNotNull() {
         //when
